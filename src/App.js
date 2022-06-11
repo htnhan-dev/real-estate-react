@@ -1,9 +1,22 @@
 import './App.css';
-import Pages from './pages/Pages';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import RouterK from './route/RouterK';
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <Pages />
+    <>
+      <BrowserRouter>
+        <Header />
+        {/* Start Render Pages */}
+          <RouterK />
+        {/* End Render Pages */}
+        <Footer />
+      </BrowserRouter>
+      
+    </>
   );
 }
 

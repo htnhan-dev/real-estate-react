@@ -1,0 +1,98 @@
+.heroslide{
+    background-image: url('../../../../public/images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.heroslide .container{
+    padding-top: 15%;
+}
+.heroslide form{
+    background-color: #fff;
+    border-radius: 0.75rem;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+.heroslide form input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.heroslide form span{
+    font-size: 1rem;
+    color: grey;
+}
+input[type=text]:focus{
+    border: 1px solid var(--mainColor);
+}
+input::placeholder{
+    font-size: 1rem;
+    color: grey;
+}
+.heroslide form .box{
+    padding: 15px;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+.heroslide form .box:nth-child(1){
+    border-left: none;
+}
+.heroslide form h4{
+    font-weight: 500;
+}
+.heading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.heading h1{
+    color: #2f3954;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.heading p {
+    margin-top: 10px;
+    color: #72809d;
+}
+textarea, input{
+    border: none;
+    outline: none;
+    background-color: none;
+}
+.heroslide h1{
+    color: #fff;
+    font-size: 60px;
+}
+.heroslide p{
+    color: #fff;
+    opacity: 0.8;
+}
+@media screen and (max-width: 800px){
+    .heroslide .container{
+        padding-top: 30%;
+    }
+    .heroslide form{
+        padding: 1rem 20px;
+    }
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form .box{
+        border-left: none;
+    }
+    form input{
+        width: 100%;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading p{
+        margin-top: 1rem;
+    }
+}
