@@ -2,9 +2,7 @@
     border-radius: 1rem;
 }
 .content .box img{
-    border-radius: 1rem;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 2rem;
     box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }
 .content .box:hover{

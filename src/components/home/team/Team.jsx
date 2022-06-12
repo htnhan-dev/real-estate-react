@@ -1,6 +1,6 @@
 import React from 'react'
 import { team } from '../../../fakeApi/Data'
-import Heading from '../Heading'
+import Heading from '../../Heading'
 import './Team.css'
 
 const Team = () => {

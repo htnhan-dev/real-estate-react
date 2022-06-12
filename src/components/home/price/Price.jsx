@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../Heading'
+import Heading from '../../Heading'
 import PriceCard from '../priceCard/PriceCard'
 import './Price.css'
 

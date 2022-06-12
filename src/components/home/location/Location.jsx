@@ -1,6 +1,6 @@
 import React from 'react'
 import { location } from '../../../fakeApi/Data'
-import Heading from '../Heading'
+import Heading from '../../Heading'
 import './Location.css'
 
 const Location = () => {

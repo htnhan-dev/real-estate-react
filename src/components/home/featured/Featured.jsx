@@ -1,6 +1,7 @@
 import React from 'react'
+import Heading from '../../Heading'
 import FeaturedCard from '../featuredCard/FeaturedCard'
-import Heading from '../Heading'
+
 
 import './Featured.css'
 

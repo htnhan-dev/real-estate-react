@@ -1,6 +1,6 @@
 import React from 'react'
 import { awards } from '../../../fakeApi/Data'
-import Heading from '../Heading'
+import Heading from '../../Heading'
 import './Awards.css'
 
 const Awards = () => {

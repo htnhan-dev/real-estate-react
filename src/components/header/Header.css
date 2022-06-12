@@ -54,7 +54,7 @@ header .toogle{
         padding: 0;
     }
     header .logo{
-        margin-top: 30px;
+        margin-top: 20px;
     }
     header .button{
         display: none;
@@ -65,7 +65,7 @@ header .toogle{
     }
     header .toogle {
         display: block;
-        margin-top: 20px;
+        margin-top: 16px;
     }
     header .small{
         position: absolute;
